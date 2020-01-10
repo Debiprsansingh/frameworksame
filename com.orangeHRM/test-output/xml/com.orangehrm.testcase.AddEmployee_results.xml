@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="add"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="0.000">
+  <properties />
+            <testcase name="addEmployee" time="0.000" classname="com.orangehrm.testcase.AddEmployee">
+                <failure type="org.testng.TestNGException"
+                  message="
+Method public void com.orangehrm.testcase.AddEmployee.addEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String) requires a @DataProvider named : getData"
+              >
+<![CDATA[org.testng.TestNGException: 
+Method public void com.orangehrm.testcase.AddEmployee.addEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String) requires a @DataProvider named : getData
+  org.testng.internal.Parameters.findDataProvider(Parameters.java:336)
+  org.testng.internal.Parameters.handleParameters(Parameters.java:498)
+  org.testng.internal.Invoker.handleParameters(Invoker.java:1293)
+  org.testng.internal.Invoker.createParameters(Invoker.java:1020)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1110)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:756)
+  org.testng.TestRunner.run(TestRunner.java:610)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+  org.testng.TestNG.runSuites(TestNG.java:1133)
+  org.testng.TestNG.run(TestNG.java:1104)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

@@ -1,0 +1,8 @@
+19:04:18,940 DEBUG devpinoyLogger:51 - config file loded
+19:04:18,944 DEBUG devpinoyLogger:65 - OR file loded
+19:04:25,281 DEBUG devpinoyLogger:80 - chrome launched
+19:04:48,231 DEBUG devpinoyLogger:89 - Navigated to testhttps://opensource-demo.orangehrmlive.com/
+19:04:49,396 DEBUG devpinoyLogger:17 - Inside Login Test
+19:04:54,488 DEBUG devpinoyLogger:24 - login successfully
+19:04:56,800 DEBUG devpinoyLogger:13 - login into homepage
+19:04:57,514 DEBUG devpinoyLogger:111 - test execution completed 

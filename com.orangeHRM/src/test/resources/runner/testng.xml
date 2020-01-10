@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+
+	</listeners>
+	<test name="login">
+		<classes>
+			<class name="com.orangehrm.testcase.LoginTest" />
+		</classes>
+				</test> <!-- Test -->
+		<test name="homepage">
+			<classes>
+				<class name="com.orangehrm.testcase.BtnForAddEmp" />
+			</classes>
+					</test> <!-- Test -->
+			<test name="add">
+				<classes>
+					<class name="com.orangehrm.testcase.AddEmployee" />
+				</classes>
+			</test> <!-- Test -->
+</suite> <!-- Suite -->
