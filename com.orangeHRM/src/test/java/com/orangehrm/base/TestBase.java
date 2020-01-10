@@ -29,7 +29,7 @@ public class TestBase {
 	public static Logger Log= Logger.getLogger("devpinoyLogger");
 	public static ExcelReader excel=new ExcelReader(System.getProperty("user.dir")+"\\src\\test\\resources\\resources\\excel\\testdata.xlsx");
 	
-	
+	// new push
 	
 	
 	
